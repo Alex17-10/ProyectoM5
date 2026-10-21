@@ -14,24 +14,24 @@ The repository covers the complete MLOps cycle: data quality and preparation, ED
 
 ## Table of Contents
 
-0. Quick execution (step by step)
-1. General description and business case
-2. Overall project flow
-3. Architecture and folder structure
-4. Input data and preparation: `Cargar_datos.py`
-5. Exploratory data analysis (EDA): `Comprension_eda.py`
-6. Feature engineering: `ft_engineering.py`
-7. Model training and evaluation: `model_training_evaluation.py`
-8. Model deployment: `model_deploy.py`
-9. Prediction API (FastAPI): `API.py`
-10. Sending records to the API: `enviar_predicciones_API.py`
-11. Model monitoring and data drift: `model_monitoring.py`
-12. Streamlit application: `APP.py`
-13. Methodological considerations
-14. Containerization with Docker
-15. Version control with Git and GitHub
-16. Technology stack
-17. Conclusion
+0. [Quick Execution (Step by Step)](#0-quick-execution-step-by-step)
+1. [General Description and Business Case](#1-general-description-and-business-case)
+2. [Overall Project Flow](#2-overall-project-flow)
+3. [Architecture and Folder Structure](#3-architecture-and-folder-structure)
+4. [Input Data and Preparation: Cargar_datos.py](#4-input-data-and-preparation-cargar_datospy)
+5. [Exploratory Data Analysis (EDA): Comprension_eda.py](#5-exploratory-data-analysis-eda-comprension_edapy)
+6. [Feature Engineering: ft_engineering.py](#6-feature-engineering-ft_engineeringpy)
+7. [Model Training and Evaluation: model_training_evaluation.py](#7-model-training-and-evaluation-model_training_evaluationpy)
+8. [Model Deployment: model_deploy.py](#8-model-deployment-model_deploypy)
+9. [Prediction API (FastAPI): API.py](#9-prediction-api-fastapi-apipy)
+10. [Sending Records to the API: enviar_predicciones_API.py](#10-sending-records-to-the-api-enviar_predicciones_apipy)
+11. [Model Monitoring and Data Drift: model_monitoring.py](#11-model-monitoring-and-data-drift-model_monitoringpy)
+12. [Streamlit Application: APP.py](#12-streamlit-application-apppy)
+13. [Methodological Considerations](#13-methodological-considerations)
+14. [Containerization with Docker](#14-containerization-with-docker)
+15. [Version Control with Git and GitHub](#15-version-control-with-git-and-github)
+16. [Technology Stack](#16-technology-stack)
+17. [Conclusion](#17-conclusion)
 
 ---
 
